@@ -1,0 +1,8 @@
+web: 
+  build: .
+  ports:
+    - "17123:17123"
+  tty: true
+  volumes: 
+    - "./server/:/server/"
+  
